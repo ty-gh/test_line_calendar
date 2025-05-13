@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // --- LIFF初期化 ---
     liff.init({
-        liffId: "YOUR_LIFF_ID" // ここにあなたのLIFF IDを貼り付けます
+        liffId: "2007408982-8W0x1kq3" // ここにあなたのLIFF IDを貼り付けます
     })
     .then(() => {
         console.log('LIFF init succeeded.');
