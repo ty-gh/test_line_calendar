@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>日時選択カレンダー</title>
+    <!-- カレンダーライブラリのCSS (例: Flatpickr) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <!-- 独自のCSS (必要であれば) -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>ご希望の来店日時を選択してください</h1>
+
+    <div class="calendar-container">
+        <input type="text" id="datetime-picker" placeholder="日時を選択...">
+    </div>
+
+    <button id="send-button" disabled>この日時で送信する</button>
+
+    <!-- LIFF SDK -->
+    <script src="https://static.line-scdn.net/liff/edge/2/sdk.js"></script>
+    <!-- カレンダーライブラリのJavaScript (例: Flatpickr) -->
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <!-- 日本語化ファイル (Flatpickrの場合) -->
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr/dist/l10n/ja.js"></script>
+    <!-- 独自のJavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>

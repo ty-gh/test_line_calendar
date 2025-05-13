@@ -1,0 +1,38 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f4f4f4; /* LINEアプリの背景に近い色 */
+}
+
+.calendar-container {
+    margin-bottom: 20px;
+    width: 90%;
+    max-width: 400px;
+}
+
+#datetime-picker {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#send-button {
+    padding: 12px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #00B900; /* LINEの緑 */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#send-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
